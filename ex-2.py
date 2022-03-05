@@ -19,7 +19,7 @@ def main():
     for i in range(0, userCount):
         users.append(getUser())
 
-    searchedName = input('Enter the name : ')
+    searchedName = input('Enter the name you wanna search : ')
     print(searchUsers(searchedName))
 
 main()
